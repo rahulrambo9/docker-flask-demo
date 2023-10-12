@@ -17,7 +17,7 @@ pipeline {
         }
         stage('push image') {
             steps{
-                sh 'docker push rambo/flaskapp:$BUILD_NUMBER'
+                sh 'docker push rahulrambo9/rambo-flaskapp:$BUILD_NUMBER'
             }
         }
 }
